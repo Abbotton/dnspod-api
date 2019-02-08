@@ -1,0 +1,28 @@
+{
+    "name": "abbotton/dnspod-api",
+    "description": ":beer: The composer package for DNSPod :clap::clap:",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "support": {
+        "email": "uctoo@foxmail.com",
+        "issues": "https://github.com/Abbotton/dnspod-api/issues"
+    },
+    "authors": [
+        {
+            "name": "Abbotton",
+            "email": "uctoo@foxmail.com",
+            "homepage": "https://mibrsoft.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DnsPod\\": "src/"
+        }
+    }
+}
